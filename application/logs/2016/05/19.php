@@ -1,0 +1,98 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-05-19 00:03:21 --- CRITICAL: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '14' at line 1 [ 14 ] ~ MODPATH\database\classes\Kohana\Database\MySQLi.php [ 171 ] in C:\Users\WLB\Desktop\sim\modules\database\classes\Kohana\Database\Query.php:251
+2016-05-19 00:03:21 --- DEBUG: #0 C:\Users\WLB\Desktop\sim\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQLi->query(2, 14, false, Array)
+#1 C:\Users\WLB\Desktop\sim\application\classes\Baseclass.php(28): Kohana_Database_Query->execute()
+#2 C:\Users\WLB\Desktop\sim\application\classes\Course.php(13): BaseClass::insert(Array)
+#3 C:\Users\WLB\Desktop\sim\application\classes\Controller\Course.php(43): Course::insert(Array)
+#4 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Controller.php(84): Controller_Course->action_insert()
+#5 [internal function]: Kohana_Controller->execute()
+#6 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Course))
+#7 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#9 C:\Users\WLB\Desktop\sim\index.php(118): Kohana_Request->execute()
+#10 {main} in C:\Users\WLB\Desktop\sim\modules\database\classes\Kohana\Database\Query.php:251
+2016-05-19 00:03:32 --- CRITICAL: ErrorException [ 8 ]: Undefined index: weeknum ~ APPPATH\classes\Baseclass.php [ 28 ] in C:\Users\WLB\Desktop\sim\application\classes\Baseclass.php:28
+2016-05-19 00:03:32 --- DEBUG: #0 C:\Users\WLB\Desktop\sim\application\classes\Baseclass.php(28): Kohana_Core::error_handler(8, 'Undefined index...', 'C:\\Users\\WLB\\De...', 28, Array)
+#1 C:\Users\WLB\Desktop\sim\application\classes\Course.php(13): BaseClass::insert(Array)
+#2 C:\Users\WLB\Desktop\sim\application\classes\Controller\Course.php(43): Course::insert(Array)
+#3 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Controller.php(84): Controller_Course->action_insert()
+#4 [internal function]: Kohana_Controller->execute()
+#5 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Course))
+#6 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 C:\Users\WLB\Desktop\sim\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\Users\WLB\Desktop\sim\application\classes\Baseclass.php:28
+2016-05-19 00:04:36 --- CRITICAL: Database_Exception [ 1064 ]: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '15' at line 1 [ 15 ] ~ MODPATH\database\classes\Kohana\Database\MySQLi.php [ 171 ] in C:\Users\WLB\Desktop\sim\modules\database\classes\Kohana\Database\Query.php:251
+2016-05-19 00:04:36 --- DEBUG: #0 C:\Users\WLB\Desktop\sim\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQLi->query(2, 15, false, Array)
+#1 C:\Users\WLB\Desktop\sim\application\classes\Baseclass.php(28): Kohana_Database_Query->execute()
+#2 C:\Users\WLB\Desktop\sim\application\classes\Course.php(13): BaseClass::insert(Array)
+#3 C:\Users\WLB\Desktop\sim\application\classes\Controller\Course.php(43): Course::insert(Array)
+#4 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Controller.php(84): Controller_Course->action_insert()
+#5 [internal function]: Kohana_Controller->execute()
+#6 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Course))
+#7 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#9 C:\Users\WLB\Desktop\sim\index.php(118): Kohana_Request->execute()
+#10 {main} in C:\Users\WLB\Desktop\sim\modules\database\classes\Kohana\Database\Query.php:251
+2016-05-19 00:04:43 --- CRITICAL: ErrorException [ 8 ]: Undefined index: weeknum ~ APPPATH\classes\Baseclass.php [ 28 ] in C:\Users\WLB\Desktop\sim\application\classes\Baseclass.php:28
+2016-05-19 00:04:43 --- DEBUG: #0 C:\Users\WLB\Desktop\sim\application\classes\Baseclass.php(28): Kohana_Core::error_handler(8, 'Undefined index...', 'C:\\Users\\WLB\\De...', 28, Array)
+#1 C:\Users\WLB\Desktop\sim\application\classes\Course.php(13): BaseClass::insert(Array)
+#2 C:\Users\WLB\Desktop\sim\application\classes\Controller\Course.php(43): Course::insert(Array)
+#3 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Controller.php(84): Controller_Course->action_insert()
+#4 [internal function]: Kohana_Controller->execute()
+#5 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Course))
+#6 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 C:\Users\WLB\Desktop\sim\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\Users\WLB\Desktop\sim\application\classes\Baseclass.php:28
+2016-05-19 00:09:14 --- CRITICAL: Database_Exception [ 1054 ]: Unknown column '上课' in 'field list' [ insert into workout_course(weeknum,startsection,endsection,classroomid,courseid,startweek,endweek,occupationreason)
+            values(1,1,3,1,1,1,5,上课) ] ~ MODPATH\database\classes\Kohana\Database\MySQLi.php [ 171 ] in C:\Users\WLB\Desktop\sim\modules\database\classes\Kohana\Database\Query.php:251
+2016-05-19 00:09:14 --- DEBUG: #0 C:\Users\WLB\Desktop\sim\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQLi->query(2, 'insert into wor...', false, Array)
+#1 C:\Users\WLB\Desktop\sim\application\classes\Baseclass.php(28): Kohana_Database_Query->execute()
+#2 C:\Users\WLB\Desktop\sim\application\classes\Course.php(13): BaseClass::insert(Array)
+#3 C:\Users\WLB\Desktop\sim\application\classes\Controller\Course.php(43): Course::insert(Array)
+#4 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Controller.php(84): Controller_Course->action_insert()
+#5 [internal function]: Kohana_Controller->execute()
+#6 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Course))
+#7 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#9 C:\Users\WLB\Desktop\sim\index.php(118): Kohana_Request->execute()
+#10 {main} in C:\Users\WLB\Desktop\sim\modules\database\classes\Kohana\Database\Query.php:251
+2016-05-19 00:10:45 --- CRITICAL: Database_Exception [ 1054 ]: Unknown column '上课' in 'field list' [ insert into workout_course(weeknum,startsection,endsection,classroomid,courseid,startweek,endweek,occupationreason)
+            values(1,1,4,1,1,2,9,上课) ] ~ MODPATH\database\classes\Kohana\Database\MySQLi.php [ 171 ] in C:\Users\WLB\Desktop\sim\modules\database\classes\Kohana\Database\Query.php:251
+2016-05-19 00:10:45 --- DEBUG: #0 C:\Users\WLB\Desktop\sim\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQLi->query(2, 'insert into wor...', false, Array)
+#1 C:\Users\WLB\Desktop\sim\application\classes\Baseclass.php(28): Kohana_Database_Query->execute()
+#2 C:\Users\WLB\Desktop\sim\application\classes\Course.php(13): BaseClass::insert(Array)
+#3 C:\Users\WLB\Desktop\sim\application\classes\Controller\Course.php(43): Course::insert(Array)
+#4 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Controller.php(84): Controller_Course->action_insert()
+#5 [internal function]: Kohana_Controller->execute()
+#6 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Course))
+#7 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#9 C:\Users\WLB\Desktop\sim\index.php(118): Kohana_Request->execute()
+#10 {main} in C:\Users\WLB\Desktop\sim\modules\database\classes\Kohana\Database\Query.php:251
+2016-05-19 00:11:03 --- CRITICAL: ErrorException [ 8 ]: Undefined index: weeknum ~ APPPATH\classes\Baseclass.php [ 28 ] in C:\Users\WLB\Desktop\sim\application\classes\Baseclass.php:28
+2016-05-19 00:11:03 --- DEBUG: #0 C:\Users\WLB\Desktop\sim\application\classes\Baseclass.php(28): Kohana_Core::error_handler(8, 'Undefined index...', 'C:\\Users\\WLB\\De...', 28, Array)
+#1 C:\Users\WLB\Desktop\sim\application\classes\Course.php(13): BaseClass::insert(Array)
+#2 C:\Users\WLB\Desktop\sim\application\classes\Controller\Course.php(43): Course::insert(Array)
+#3 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Controller.php(84): Controller_Course->action_insert()
+#4 [internal function]: Kohana_Controller->execute()
+#5 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Course))
+#6 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 C:\Users\WLB\Desktop\sim\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\Users\WLB\Desktop\sim\application\classes\Baseclass.php:28
+2016-05-19 00:13:41 --- CRITICAL: Database_Exception [ 1054 ]: Unknown column '上课' in 'field list' [ insert into workout_course(weeknum,startsection,endsection,classroomid,courseid,startweek,endweek,occupationreason)
+            values(2,1,5,2,1,1,7,上课) ] ~ MODPATH\database\classes\Kohana\Database\MySQLi.php [ 171 ] in C:\Users\WLB\Desktop\sim\modules\database\classes\Kohana\Database\Query.php:251
+2016-05-19 00:13:41 --- DEBUG: #0 C:\Users\WLB\Desktop\sim\modules\database\classes\Kohana\Database\Query.php(251): Kohana_Database_MySQLi->query(2, 'insert into wor...', false, Array)
+#1 C:\Users\WLB\Desktop\sim\application\classes\Baseclass.php(28): Kohana_Database_Query->execute()
+#2 C:\Users\WLB\Desktop\sim\application\classes\Course.php(13): BaseClass::insert(Array)
+#3 C:\Users\WLB\Desktop\sim\application\classes\Controller\Course.php(43): Course::insert(Array)
+#4 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Controller.php(84): Controller_Course->action_insert()
+#5 [internal function]: Kohana_Controller->execute()
+#6 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Course))
+#7 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#8 C:\Users\WLB\Desktop\sim\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#9 C:\Users\WLB\Desktop\sim\index.php(118): Kohana_Request->execute()
+#10 {main} in C:\Users\WLB\Desktop\sim\modules\database\classes\Kohana\Database\Query.php:251
